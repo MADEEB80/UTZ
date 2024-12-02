@@ -1,0 +1,231 @@
+<html><head><base href="contact#services"><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UrduTechZone - Our Services</title>
+<style>
+:root {
+    --primary: #2196F3;
+    --secondary: #03A9F4;
+    --accent: #00BCD4;
+    --light: #F5F5F5;
+    --dark: #212121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+    padding-top: 60px;
+}
+
+.navbar {
+    background: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.service-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.service-title {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.service-description {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.service-price {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.book-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.book-button:hover {
+    background: var(--secondary);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--dark);
+}
+
+.section-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-title p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
+
+.footer a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-title h1 {
+        font-size: 2rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-content">
+        <a href="/" class="logo">UrduTechZone</a>
+    </div>
+</nav>
+
+<div class="service-container">
+    <div class="section-title">
+        <h1>Our Services</h1>
+        <p>Professional web and software development solutions at competitive prices</p>
+    </div>
+
+    <div class="service-grid">
+        <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3 class="service-title">Website Design</h3>
+            <p class="service-description">Custom responsive website design with modern UI/UX principles</p>
+            <p class="service-price">Starting from Rs. 15,000</p>
+            <a href="https://wa.me/+923036008080" class="book-button">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">Full-stack web development with latest technologies</p>
+            <p class="service-price">Starting from Rs. 25,000</p>
+            <a href="https://wa.me/+923036008080" class="book-button">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3 class="service-title">Mobile App Development</h3>
+            <p class="service-description">iOS and Android app development services</p>
+            <p class="service-price">Starting from Rs. 35,000</p>
+            <a href="https://wa.me/+923036008080" class="book-button">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🔧</div>
+            <h3 class="service-title">Software Development</h3>
+            <p class="service-description">Custom software solutions for business needs</p>
+            <p class="service-price">Starting from Rs. 50,000</p>
+            <a href="https://wa.me/+923036008080" class="book-button">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🎯</div>
+            <h3 class="service-title">SEO Services</h3>
+            <p class="service-description">Search engine optimization and digital marketing</p>
+            <p class="service-price">Starting from Rs. 20,000</p>
+            <a href="https://wa.me/+923036008080" class="book-button">Book Now</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🛠️</div>
+            <h3 class="service-title">Website Maintenance</h3>
+            <p class="service-description">Regular updates, backups and security maintenance</p>
+            <p class="service-price">Starting from Rs. 5,000</p>
+            <a href="https://wa.me/+923036008080" class="book-button">Book Now</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 UrduTechZone. All rights reserved.</p>
+    <p>Designed with ❤️ by <a href="https://www.urdutechzone.com">UTZ</a></p>
+</footer>
+
+</body></html>
